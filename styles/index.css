@@ -1,6 +1,14 @@
 /* styling with element */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Neonderthaw&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 body{
+    margin: 0;
+}
+header{
     background-color: #1F2228;
+    height: 100vh;
 }
 /* styling with class */
 .nav{
@@ -10,7 +18,7 @@ body{
 }
 .nav__logo{
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin: 40px;
 }
 .nav__ul{
@@ -32,4 +40,21 @@ body{
     color: red;
     text-decoration: none;
     font-size: 16px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.intro__name{
+    font-family: 'Neonderthaw', cursive;
+    font-size: 144px;
+    margin: 50px
+}
+.into__p{
+    font-family: 'Merriweather', serif;
+    margin: 0;
 }
